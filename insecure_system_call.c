@@ -22,7 +22,7 @@ int main() {
 
     printf("Enter a command: ");
     fgets(userInput, sizeof(userInput), stdin);
-    userInput[strcspn(userInput, "\n")] = 0; // Remove newline character
+    userInput[strcspn(userInput, "\n")] = 0; // Remove newline character!
 
     // Dangerous: appending user input directly to a system command
     strcat(command, userInput);

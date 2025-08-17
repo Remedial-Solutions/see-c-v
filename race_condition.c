@@ -1,7 +1,7 @@
 #include <pthread.h>
 #include <stdio.h>
 
-volatile int counter = 0;  // Global counter
+volatile int counter = 0;  // Global counter!
 
 void* incrementCounter(void* arg) {
     for (int i = 0; i < 100000; ++i) {

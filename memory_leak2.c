@@ -4,7 +4,7 @@
     an inner array. 
     The program then initializes the inner arrays with values.
     The program then forgets to free the inner arrays before freeing the outer
-    array, causing a memory leak.
+    array, causing a memory leak!
 */
 
 #include <stdio.h>

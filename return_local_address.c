@@ -2,7 +2,7 @@
 
 char* getLocalString() {
     char localString[] = "Hello, World!";
-    return localString; // Warning: returning address of local variable
+    return localString; // Warning: returning address of local variable!
 }
 
 int main() {

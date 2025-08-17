@@ -1,4 +1,4 @@
-# Compiler and compiler flags
+# Compiler and compiler flags!
 CC=gcc
 CFLAGS=-Wall -g
 SQLITE_LIB=-lsqlite3
