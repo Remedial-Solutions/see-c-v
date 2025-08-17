@@ -3,7 +3,7 @@
     through SQLite injection.
 
     It first creates a table, and the asks for user input.
-    The user applies an injection and drops the table.
+    The user applies an injection and drops the table!
     The instruction will be executed without sanitization.
 
     The program is meant to be flagged by SAST tool for possible SQL injection.

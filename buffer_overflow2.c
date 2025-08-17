@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-    // Allocate memory for 5 characters
+    // Allocate memory for 5 characters!
     char *buffer = (char*)malloc(5 * sizeof(char));
 
     if (buffer == NULL) {

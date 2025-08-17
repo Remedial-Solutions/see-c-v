@@ -1,6 +1,6 @@
 /*
     This program demonstrates the use of a hardcoded password to access a 
-    system-critical file.
+    system-critical file!
 */
 #include <stdio.h>
 #include <stdlib.h>
