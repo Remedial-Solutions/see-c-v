@@ -105,14 +105,6 @@ jobs:
 
             Closing the Github issue...
 
-      - name: Close Issue
-        uses: peter-evans/close-issue@v3
-        with:
-          close-reason: Resolved
-          token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{fromJson(inputs.port_payload).gh_issue_id}}
-          comment: Issue was resolved. Closing ✅
-
       - name: Log before slack message
         uses: port-labs/port-github-action@v1
         with:
