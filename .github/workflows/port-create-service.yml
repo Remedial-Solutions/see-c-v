@@ -45,7 +45,7 @@ jobs:
           portRunId: ${{ fromJson(inputs.port_context).runId }}
           repositoryName: ${{ inputs.service_name }}
           portUserInputs: '{"cookiecutter_app_name": "${{ inputs.service_name }}" }'
-          cookiecutterTemplate: https://github.com/pypa/hatch
+          cookiecutterTemplate: https://github.com/ionelmc/cookiecutter-pylibrary
           blueprintIdentifier: "githubRepository"
           organizationName: ${{ env.ORG_NAME }}
           createPortEntity: false
